@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RebelWood
+  </title>
+<link rel="shortcut icon" href="C:\Users\chinn\Desktop\Favicon2.png" type="image/x-icon">
+<style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      background: #000;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Small vertical logo on the left */
+    .side-logo {
+      position: fixed;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%) rotate(-90deg);
+      font-size: 16px;
+      letter-spacing: 2px;
+      color: whitesmoke;
+    }
+
+    .card {
+      width: 70%;
+      max-width: 800px;
+      min-width: 420px;
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 50px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    }
+
+    .card-left {
+      flex: 0 0 auto;
+      margin-right: 40px;
+      text-align: left;
+    }
+
+    .logo-main {
+      font-size: 32px;
+      font-weight: 700;
+      color: whitesmoke;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      opacity: 0.8;
+    }
+
+    .card-center {
+      flex: 0 0 auto;
+      margin-right: 40px;
+    }
+
+    .btn-main {
+      border: none;
+      padding: 14px 40px;
+      background: whitesmoke;
+      color: #000;
+      font-weight: 600;
+      letter-spacing: 2px;
+      cursor: pointer;
+      border-radius: 1px;
+      text-transform: uppercase;
+      transition-property: transform;
+      transition-duration: 3s;
+      transition-timing-function: ease-in-out;
+      transition-delay: 0ms;
+
+    }
+
+    .btn-main:hover {
+      filter: brightness(1.1);
+      background-color: rgb(212, 0, 64)  ;
+      color: black;
+      transform: rotate(360deg);
+    }
+    .btn-main a{
+                  text-decoration:none;
+                  color: rgb(0, 0, 0);
+
+    }
+
+    .card-right {
+      flex: 1;
+      font-size: 13px;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    .copyright {
+      position: fixed;
+      right: 55px;
+      bottom: 20px;
+      font-size: 11px;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+      }
+
+      .card-left,
+      .card-center,
+      .card-right {
+        margin: 10px 0;
+      }
+
+      .side-logo {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- vertical logo on left -->
+  <div class="side-logo">RebelWood</div>
+
+  <!-- main card -->
+  <div class="card">
+    <div class="card-left">
+      <div class="logo-main">RebelWood</div>
+      <div class="tagline">100% Telugu Entertainment</div>
+    </div>
+
+    <div class="card-center">
+      <button class="btn-main"><a href="file:///C:/Users/chinn/Documents/MoviesHub/MoviesHub.html/New/RebelWood/Page2.css.html" class="btn">REBELWOOd</a>
+</button>
+      
+    </div>
+
+    <div class="card-right">
+      Watch RebelWood Telugu movies online in excellent quality.
+      
+    </div>
+  </div>
+
+  <!-- copyright -->
+  <div class="copyright">
+    &copy; 2026 MoviesHub. All rights reserved.
+  </div>
+
+</body>
+</html>
