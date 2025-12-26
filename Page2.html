@@ -104,6 +104,15 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+         @media (max-width: 600px) {
+  .movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .movie-card p {
+    font-size: 12px;
+  }
+}
     </style>
     
 </head>
@@ -200,15 +209,7 @@
 <div class="movie-name">TelusuKadha</div>
      </div>
     
-  @media (max-width: 600px) {
-  .movies {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .movie-card p {
-    font-size: 12px;
-  }
-}
+ 
 
 
   </div>
@@ -217,6 +218,7 @@
 
 </body>
 </html>
+
 
 
 
