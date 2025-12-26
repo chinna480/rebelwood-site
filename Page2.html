@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>RebelWood</title>
     <link rel="shortcut icon" href="Favicon2.png" type="image/x-icon">
     <style>
@@ -199,7 +200,16 @@
 <div class="movie-name">TelusuKadha</div>
      </div>
     
-  
+  @media (max-width: 600px) {
+  .movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .movie-card p {
+    font-size: 12px;
+  }
+}
+
 
   </div>
 </div>
@@ -207,6 +217,7 @@
 
 </body>
 </html>
+
 
 
 
